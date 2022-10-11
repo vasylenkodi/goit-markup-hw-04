@@ -19,6 +19,7 @@
   --adress-contacts-color: rgba(255, 255, 255, 0.6);
   --header-border-color: #ececec;
   --gallery-border-color: #eeeeee;
+  --icons-color: #afb1b8;
 }
 
 /* УТІЛІТИ */
@@ -322,9 +323,7 @@ body {
 }
 
 .team-card .card-footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
-
+  padding: 30px 32px;
   background-color: var(--page-white-color);
   border-radius: 0 0 4px 4px;
 }
@@ -344,8 +343,69 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin: 0;
+  margin: 0 0 16px 0;
 }
+
+.social-media .link {
+  display: inline-block;
+  color: inherit;
+  padding: 12px;
+}
+
+.team-card .social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-card .social-media {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  text-align: center;
+  color: var(--icons-color);
+}
+
+.team-card .social-media:hover,
+.team-card .social-media:focus {
+  background-color: var(--accent-color);
+  color: var(--page-white-color);
+}
+
+.team-card .icon {
+  fill: currentColor;
+}
+
+/* постійні клієнти */
+
+.clients-title {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.companies-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companies-list .link {
+  display: inline-block;
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: var(--icons-color);
+}
+
+.companies-list .link:hover,
+.companies-list .link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.companies-list .icon {
+  fill: currentColor;
+}
+
 
 /* футер */
 
