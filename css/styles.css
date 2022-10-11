@@ -177,6 +177,18 @@ body {
   color: var(--accent-color);
 }
 
+.icon-mail {
+  fill: currentColor;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.icon-phone {
+  fill: currentColor;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
 /* герой */
 
 .hero.section {
