@@ -238,6 +238,14 @@ body {
 
 /* Секція наші переваги */
 
+.thumb {
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+
 .features-list {
   display: flex;
 }
