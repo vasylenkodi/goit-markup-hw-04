@@ -415,6 +415,15 @@ body {
   padding-bottom: 60px;
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-links {
+  margin-left: 70px;
+}
+
 .footer .logo {
   display: inline-block;
   color: var(--page-white-color);
@@ -448,6 +457,40 @@ body {
 
 .adress-list .adress-item + .adress-item {
   margin-top: 9px;
+}
+
+.footer-title {
+font-size: inherit;
+line-height: calc(16/14);
+text-transform: uppercase;
+color: var(--page-white-color);
+margin: 0 0 20px 0;
+}
+
+.footer .social-list {
+  display: flex;
+}
+
+.footer .social-media + .social-media{
+  margin-left: 10px;
+}
+
+.footer .social-list .link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--page-white-color);
+}
+
+.footer .social-list .link:hover,
+.footer .social-list .link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer .icon {
+  fill: currentColor;
 }
 
 /* сторінка портфоліо */
