@@ -197,7 +197,8 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero-background-image.jpg');
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-background-image.jpg');
   max-width: 1600px;
   height: 600px;
 }
@@ -406,7 +407,6 @@ body {
   fill: currentColor;
 }
 
-
 /* футер */
 
 .footer {
@@ -460,18 +460,18 @@ body {
 }
 
 .footer-title {
-font-size: inherit;
-line-height: calc(16/14);
-text-transform: uppercase;
-color: var(--page-white-color);
-margin: 0 0 20px 0;
+  font-size: inherit;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--page-white-color);
+  margin: 0 0 20px 0;
 }
 
 .footer .social-list {
   display: flex;
 }
 
-.footer .social-media + .social-media{
+.footer .social-media + .social-media {
   margin-left: 10px;
 }
 
@@ -566,4 +566,11 @@ margin: 0 0 20px 0;
   font-size: 16px;
   line-height: 1.88;
   margin: 0;
+  color: var(--primary-text-color);
+}
+
+.gallery-card:hover,
+.gallery-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
