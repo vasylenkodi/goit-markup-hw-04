@@ -201,6 +201,8 @@ body {
     url('../images/hero-background-image.jpg');
   max-width: 1600px;
   height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero .container {
